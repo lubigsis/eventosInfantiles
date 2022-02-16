@@ -5,7 +5,7 @@
 }
 
 .contenedor-sky{
-    background-image: linear-gradient(#84DFFF, #FFFCDC);
+    background-image: linear-gradient(#84DFFF, #B3541E);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -20,7 +20,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 105px;
+    top: 405px;
     left: 50px;
 }
 
@@ -32,7 +32,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 205px;
+    top: 405px;
     left: 150px;
 }
 
@@ -44,7 +44,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 165px;
+    top: 465px;
     left: 280px;
 }
 
@@ -56,7 +56,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 105px;
+    top: 405px;
     left: 900px;
 }
 
@@ -68,7 +68,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 205px;
+    top: 505px;
     left: 1000px;
 }
 
@@ -80,12 +80,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 200px;
+    top: 500px;
     left: 1150px;
 }
 
-.montañas{
-    background-image: url(mountains.png);
+.forest{
+    background-image: url(forest.png);
     width: 100%;
     height: 100vh;
     background-size: contain;
@@ -103,4 +103,34 @@
     z-index: 10;
     position: relative;
     top: 300px;
+    right: -550px;
+}
+
+/* ?\ 
+.rainbow{
+    background-image: url(rainbow.png);
+    width: 258px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 530px;
+}
+*/
+
+.cont-tituloEventos{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    padding: 0;
+    margin: 0;
+}
+
+.cont-tituloEventos h1{
+    color: #E60965;
+    z-index: 10;
+    font-family: 'Henny Penny', cursive;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
